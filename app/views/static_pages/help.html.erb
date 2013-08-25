@@ -1,2 +1,20 @@
-<h1>StaticPages#help</h1>
-<p>Find me in app/views/static_pages/help.html.erb</p>
+<% provide(:title, 'Help') %>
+<!DocType html>
+<html>
+
+	<head>
+		<title>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></title>
+	</head>
+
+	<body>
+		<h1>Help</h1>
+		<p>
+		This is the help page for the 
+
+		<a href="http://google.com"> google home page testing123</a>
+
+		sample applicaiton sw.
+		</p>
+	</body>
+
+</html>
